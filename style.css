@@ -1,3 +1,8 @@
+*{
+ /* border: 2px solid blue; */
+
+}
+
 h1 {
    font-family: "Playfair Display", serif;
    font-weight: normal;
@@ -5,11 +10,32 @@ h1 {
 }
 
 h1 span {
-	font-weight: bold;
+   font-weight: bold;
 }
 
 p {
-  font-family: "Open Sans", sans-serif;	
-  font-size: 24px;
-  color: rgba(0, 0, 0, 0.6);
+ font-family: "Open Sans", sans-serif;	
+ font-size: 24px;
+ color: rgba(0, 0, 0, 0.6);
+}
+
+body{
+  background-color: #E5E5E5;
+}
+
+header{
+
+background-color: white;
+
+}
+
+.dados {
+   display:inline-block;
+
+}
+
+.foto {
+   border: 4px solid #FFC700;
+   border-radius: 50%; /* porcentagem é aplicada em relação a largura do elemento */
+
 }
