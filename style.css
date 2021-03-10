@@ -1,6 +1,10 @@
 *{
- /* border: 2px solid blue; */
+   /*border: 2px solid blue;*/
 
+}
+
+h1, h2, h3, body, p {
+   margin: 0;
 }
 
 h1 {
@@ -21,21 +25,25 @@ p {
 
 body{
   background-color: #E5E5E5;
+ 
 }
 
 header{
 
 background-color: white;
+padding: 16px 64px;
 
 }
 
 .dados {
    display:inline-block;
+   margin-bottom: 16px;
 
 }
 
 .foto {
    border: 4px solid #FFC700;
    border-radius: 50%; /* porcentagem é aplicada em relação a largura do elemento */
-
+   margin-bottom: -130px;
+   margin-right:  24px;
 }
