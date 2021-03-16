@@ -17,10 +17,20 @@ h1 span {
    font-weight: bold;
 }
 
+h3 {
+   font-family: "Open Sans", sans-serif;
+   font-weight: normal;
+   font-size: 16px;
+}
+
 p {
  font-family: "Open Sans", sans-serif;	
- font-size: 24px;
  
+ 
+}
+
+.profissao{
+   font-size: 24px;
 }
 
 .t60{
@@ -68,4 +78,20 @@ main {
 
 .experiencias .linha{
    border-color: #4200ff;
+}
+
+.coluna-menor img{
+   width: 40px;
+   height: 40px;
+   border-radius: 4px;
+   margin-right: 8px;
+}
+
+.conteudo{
+   display: inline-block;
+}
+
+ul, ol {
+   list-style-type: none;
+   padding:  0;
 }
