@@ -25,7 +25,7 @@ h3 {
 
 p {
  font-family: "Open Sans", sans-serif;	
- 
+ font-weight: bold;
  
 }
 
@@ -87,6 +87,10 @@ main {
    margin-right: 8px;
 }
 
+.coluna-menor{
+   margin-top: 32px;
+}
+
 .conteudo{
    display: inline-block;
 }
@@ -95,3 +99,4 @@ ul, ol {
    list-style-type: none;
    padding:  0;
 }
+
