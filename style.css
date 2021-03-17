@@ -25,7 +25,7 @@ h3 {
 
 p {
  font-family: "Open Sans", sans-serif;	
- font-weight: bold;
+
  
 }
 
@@ -100,3 +100,10 @@ ul, ol {
    padding:  0;
 }
 
+.formacao{
+   margin-top: 32px;
+}
+
+.formacao .linha{
+   border-color: #FFC700;
+}
